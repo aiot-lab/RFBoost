@@ -1,0 +1,7 @@
+# Model config
+layer_num: 1
+window_list: [7, 16, 32, 48, 64, 80, 96, 112, 128]
+stride_list: [3, 8, 16, 24, 32, 40, 48, 56, 64]
+k_list: [3, 8, 16, 24, 24, 32, 32, 40, 40]
+hidden_channel: 48
+
