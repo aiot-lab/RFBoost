@@ -6,7 +6,7 @@ Datasets and PyTorch code for **RFBoost: Understanding and Boosting Deep WiFi Se
 
 ## Prerequisites
 
-- Clone this repo and download the dataset ([download link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008874_connect_hku_hk/EQr23WGSqOlJqlfqf7j6ThQBKT45tbPCEpEgSV9wNhwVrg?e=tNNf3u)(password:hku-aiot-rfboost24)):
+- Clone this repo and download the dataset from the [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008874_connect_hku_hk/EQr23WGSqOlJqlfqf7j6ThQBKT45tbPCEpEgSV9wNhwVrg?e=tNNf3u)(password:hku-aiot-rfboost24):
   ```bash
   unzip NPZ-pp.zip -d "dataset/NPZ-pp/"
 
@@ -29,9 +29,11 @@ Datasets and PyTorch code for **RFBoost: Understanding and Boosting Deep WiFi Se
    ```
 2. If everything goes well, training logs are recorded in `./log/<dataset>/<model>/`, final results are available under `./record`, and TensorBoard logs are located at `./runs`.
 
-## Support usages
+## Support methods
 
-The current version supports data augmentation for the Widar3 dataset and models supporting all DFS input models. In the `batch_runner.py` file, uncomment the method you want to use. Available options include "PCA," "All Subcarriers," "RDA," and "ISS-6."
+The current version supports data augmentation methods for the Widar3 dataset and models using DFS input. In `batch_runner.py` file, uncomment the method you want to use. Available options include "PCA", "All Subcarriers", "RDA" and "ISS-6". 
+
+Note that customized augmentation method will be defined in "augment.py". (TODO: We will refactor the definition logic in the future.)
 
 ## Files and Directories
 
