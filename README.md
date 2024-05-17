@@ -54,7 +54,14 @@ This repository is built upon [UniTS repo](https://github.com/Shuheng-Li/UniTS-S
 
 ## Citation
 
-Citation details for RFBoost will be provided soon.
+```
+@article{hou2024rfboost,
+author = {Hou, Weiying and Wu, Chenshu},
+title = {RFBoost: Understanding and Boosting Deep WiFi Sensing via Physical Data Augmentation},
+year = {2024},
+journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+}
+```
 
 ## License
 
