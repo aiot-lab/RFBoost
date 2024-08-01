@@ -6,7 +6,7 @@ Datasets and PyTorch code for **RFBoost: Understanding and Boosting Deep WiFi Se
 
 ## Prerequisites
 
-- Clone this repo and download the dataset from the [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008874_connect_hku_hk/EQr23WGSqOlJqlfqf7j6ThQBKT45tbPCEpEgSV9wNhwVrg?e=tNNf3u)(password:hku-aiot-rfboost24):
+- Clone this repo and download preprocessed Widar3 dataset from the [link](https://connecthkuhk-my.sharepoint.com/:u:/g/personal/u3008874_connect_hku_hk/EQr23WGSqOlJqlfqf7j6ThQBKT45tbPCEpEgSV9wNhwVrg?e=tNNf3u) (password:hku-aiot-rfboost24): You can download raw data from [Widar3 website](http://tns.thss.tsinghua.edu.cn/widar3.0/).
   ```bash
   unzip NPZ-pp.zip -d "dataset/NPZ-pp/"
 
